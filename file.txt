@@ -1,2 +1,17 @@
-Hello Bhavik
-thanks for confirm..
+GitHub runner
+
+General term for the machine that runs GitHub Actions jobs.
+Can be either GitHub-hosted or self-hosted.
+Responsible for checking out code, running workflow steps, and returning job status.
+GitHub-hosted runner
+
+Provided and managed by GitHub.
+Comes with preinstalled tools and a clean OS image.
+Good for standard CI tasks and quick setup.
+You do not manage the hardware or OS.
+Self-hosted runner
+
+A runner you install and manage yourself.
+Runs on your own server, VM, or local machine.
+Gives you full control over software, hardware, and environment.
+Useful for custom tools, special hardware, or private networks.
