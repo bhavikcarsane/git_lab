@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .terraform/
 *.tfstate
 *.tfstate.backup
@@ -19,3 +20,6 @@ Thumbs.db
 =======
 
 >>>>>>> aaf01f09922f068fefb24150e31c99874a3dcc9d
+=======
+*.log
+>>>>>>> release/aug26
