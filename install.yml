@@ -1,0 +1,16 @@
+---
+- name: Install required packages
+  hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install required packages
+      apt:
+        name:
+          - git
+          - python3-pip
+          - ansible
+        state: present
