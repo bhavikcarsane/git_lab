@@ -5,7 +5,6 @@
 crash.log
 
 *.retry
-*.vault
 
 __pycache__/
 *.pyc
